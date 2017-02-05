@@ -11,7 +11,7 @@ But here's also an official Telegram Support guide on how to edit and install Te
 
 ### Contact
 Just send me [@DroopyMcCool](https://t.me/droopymccool) a message in telegram. :wink:
-Join [@UbuntuThemesChannel](t.me/UbuntuThemesChannel) for instant news and notifications about changes in the theme.
+Join [@UbuntuThemesChannel](https://t.me/UbuntuThemesChannel) for instant news and notifications about changes in the theme.
 
 ### Screenshots
 ![](TlackScreenshot.png)
