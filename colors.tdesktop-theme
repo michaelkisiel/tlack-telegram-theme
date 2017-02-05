@@ -146,9 +146,9 @@ titleFgActive: #3e3c3e; // custom window title text when window is active (macOS
 
 // tray icon//////////////////////////////////////////////////////////////////////////////////////////////////////
 
-trayCounterBg: COLOR_LMORTAR; // tray icon counter background
+trayCounterBg: COLOR_YELLOW; // tray icon counter background
 trayCounterBgMute: COLOR_GGRAY; // tray icon counter background if all unread messages are muted
-trayCounterFg: COLOR_WHITE; // tray icon counter text
+trayCounterFg: COLOR_DARK; // tray icon counter text
 trayCounterBgMacInvert: COLOR_WHITE; // tray icon counter background when tray icon is pressed or when dark theme of macOS is used (macOS only)
 trayCounterFgMacInvert: #ffffff01; // tray icon counter text when tray icon is pressed or when dark theme of macOS is used (macOS only)
 
@@ -322,12 +322,12 @@ msgInBg: COLOR_WHITE; // inbox message background
 msgInBgSelected: COLOR_LPATINA; // inbox selected message background (and background of selected text in those messages)
 msgOutBg: COLOR_WHITE; // outbox message background
 msgOutBgSelected: COLOR_LPATINA; // outbox selected message background (and background of selected text in those messages)
-msgSelectOverlay: #358cd44c; // overlay which is filling the media parts of selected messages (like in selected photo message)
-msgStickerOverlay: #358cd47f; // overlay which is filling the selected sticker message
+msgSelectOverlay: #4b958861; // overlay which is filling the media parts of selected messages (like in selected photo message)
+msgStickerOverlay: #4b958861; // overlay which is filling the selected sticker message
 msgInServiceFg: COLOR_MORTAR; // inbox message information text (like information about a forwarded message original sender)
-msgInServiceFgSelected: COLOR_WHITE; // inbox selected message information text (like information about a forwarded message original sender)
+msgInServiceFgSelected: COLOR_PATINA; // inbox selected message information text (like information about a forwarded message original sender)
 msgOutServiceFg: COLOR_MORTAR; // outbox message information text (like information about a forwarded message original sender)
-msgOutServiceFgSelected: COLOR_WHITE; // outbox message information text (like information about a forwarded message original sender)
+msgOutServiceFgSelected: COLOR_PATINA; // outbox message information text (like information about a forwarded message original sender)
 msgInShadow: COLOR_WHITE; // inbox message shadow (below the bubble)
 msgInShadowSelected: COLOR_WHITE; // inbox selected message shadow (below the bubble)
 msgOutShadow: COLOR_WHITE; // outbox message shadow (below the bubble)
@@ -338,17 +338,17 @@ msgOutDateFg: COLOR_GGRAY; // outbox message time text
 msgOutDateFgSelected: COLOR_GRAY; // outbox selected message time text
 msgServiceFg: COLOR_WHITE; // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: COLOR_LMORTAR; // service message background (like in a service message about group title being changed) (adjusted) + inline buttons bg untriggered
-msgServiceBgSelected: COLOR_WHITE; // service message selected text background (like in a service message about group title being changed) (adjusted)
+msgServiceBgSelected: COLOR_NEVADA; // service message selected text background (like in a service message about group title being changed) (adjusted)
 msgInReplyBarColor: COLOR_DUSTY; // inbox message reply outline
-msgInReplyBarSelColor: COLOR_WHITE; // inbox selected message reply outline
+msgInReplyBarSelColor: COLOR_PATINA; // inbox selected message reply outline
 msgOutReplyBarColor: COLOR_DUSTY; // outbox message reply outline
-msgOutReplyBarSelColor: COLOR_WHITE; // outbox selected message reply outline
-msgImgReplyBarColor: COLOR_GGRAY; // sticker message reply outline
+msgOutReplyBarSelColor: COLOR_PATINA; // outbox selected message reply outline
+msgImgReplyBarColor: COLOR_WHITE; // sticker message reply outline
 msgInMonoFg: COLOR_GRAY; // inbox message monospace text (like a message sent with `test` text)
 msgOutMonoFg: COLOR_GRAY; // outbox message monospace text
 msgDateImgFg: COLOR_WHITE; // media message time text (like time text in a sent photo)
-msgDateImgBg: #00000054; // media message time bubble background (like time bubble in a sent photo) or file with thumbnail download icon circle background
-msgDateImgBgOver: #00000074; // media message download icon circle background with mouse over (like file with thumbnail download icon)
+msgDateImgBg: COLOR_LMORTAR; // media message time bubble background (like time bubble in a sent photo) or file with thumbnail download icon circle background
+msgDateImgBgOver: COLOR_MORTAR; // media message download icon circle background with mouse over (like file with thumbnail download icon)
 msgDateImgBgSelected: COLOR_PATINA; // selected media message time bubble background
 
 msgFileThumbLinkInFg: COLOR_GGRAY; // inbox media file message with thumbnail download / open with button text
@@ -405,10 +405,10 @@ msgBotKbOverBgAdd: COLOR_NEVADA; // this is painted over a bot inline keyboard b
 msgBotKbIconFg: COLOR_WHITE; // bot inline keyboard button icon in the top-right corner (like in @vote bot when a poll is ready to be shared)
 msgBotKbRippleBg: COLOR_PATINA; // bot inline keyboard button ripple effect
 
-mediaInFg: COLOR_GGRAY; // inbox media message status text (like in file that is being downloaded)
-mediaInFgSelected: COLOR_WHITE; // inbox selected media message status text (like in file that is being downloaded)
-mediaOutFg: COLOR_GGRAY; // outbox media message status text (like in file that is being downloaded)
-mediaOutFgSelected: COLOR_WHITE; // outbox selected media message status text (like in file that is being downloaded)
+mediaInFg: COLOR_GRAY; // inbox media message status text (like in file that is being downloaded)
+mediaInFgSelected: COLOR_GRAY; // inbox selected media message status text (like in file that is being downloaded)
+mediaOutFg: COLOR_GRAY; // outbox media message status text (like in file that is being downloaded)
+mediaOutFgSelected: COLOR_GRAY; // outbox selected media message status text (like in file that is being downloaded)
 
 youtubePlayIconBg: #e83131c8; // youtube play icon background (when a link to a youtube video with a webpage preview is sent)
 youtubePlayIconFg: COLOR_WHITE; // youtube play icon arrow (when a link to a youtube video with a webpage preview is sent)
@@ -422,7 +422,7 @@ reportSpamFg: COLOR_GRAY; // report spam panel text (when you send a report from
 
 historyToDownBg: COLOR_IRON; // arrow button background (to scroll to the end of the viewed chat)
 historyToDownBgOver: COLOR_PATINA; // arrow button background with mouse over
-historyToDownBgRipple: COLOR_LPATINA; // arrow button ripple effect
+historyToDownBgRipple: COLOR_NEVADA; // arrow button ripple effect
 historyToDownFg: COLOR_PATINA; // arrow button icon
 historyToDownFgOver: COLOR_WHITE; // arrow button icon with mouse over
 historyToDownShadow: #00000040; // arrow button shadow
