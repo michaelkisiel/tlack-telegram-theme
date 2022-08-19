@@ -9,10 +9,6 @@ A telegram desktop theme made for being productive! Keep your heads down and get
 
 But here's also an official Telegram Support guide on how to edit and install Telegram Desktop themes: http://telegra.ph/Create-Telegram-Theme-01-12.
 
-### Contact
-Just send me [@DroopyMcCool](https://t.me/droopymccool) a message in telegram. :wink:
-Join [@UbuntuThemesChannel](https://t.me/UbuntuThemesChannel) for instant news and notifications about changes in the theme.
-
 ### Screenshots
 ![](TlackScreenshot.png)
 ![](tlack-telegram-theme.png)
